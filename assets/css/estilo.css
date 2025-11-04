@@ -1,0 +1,260 @@
+/*RESET Y CONFIGURACIÓN GENERAL*/
+* {
+    font-family: Arial, sans-serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, p {
+    text-align: center;
+    line-height: 1.5;
+}
+div h4 {
+    margin-bottom: 15px;
+    font-size: larger;
+    font-weight: 100px;
+}
+/*MENÚ DE NAVEGACIÓN*/
+.menu {
+    background-color: #c4c4c4;;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    top: 0;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+.menu li a:hover {
+    background-color: #8800c7;
+    color: #fff;
+}
+
+/* LOGO */
+.logo {
+    font-weight: bold;
+    color: #8800c7;
+    font-size: 18px;
+}
+.texto {
+    margin: 0 20px 30px;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+/*PRODUCTO DESTACADO*/
+.producto-destacado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    padding: 50px;
+    color: #000000;
+}
+.producto{
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.good-imagen {
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+}
+/*BOTONES*/
+.boton {
+    display: inline-block;
+    padding: 10px 40px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+header h2 .titulo2 {
+    margin-bottom: 0;
+}
+.boton:hover {
+    background-color: #8800c7;
+    color: #ffffff;
+}
+.boton2:hover {
+    background-color: #8800c7;
+    color: #ffffff;
+}
+/*FONDO DEL HEADER*/
+.fondo {position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.fondo img {
+    opacity: 0.6;
+    z-index: -1;
+    object-fit: cover;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+/*OFERTAS*/
+.ofertas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.oferta {
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+}
+/*OOTER*/
+footer {
+    color: #000;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.stock {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+.card {
+    display: block;
+    flex-direction: column;
+}
+.good-imagen2 {
+    width: 250px;
+    height: 350px;
+    border-radius: 50px;
+}
+footer p #ultimo {
+    background-color: #c4c4c4;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.reseñas {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contacto {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mapa {
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    background-color: #f4f4f4;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.servicios{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+.contacto-lista{
+    text-align: center;
+    list-style: none;
+}
+
+footer div.pregunta {
+    text-decoration: double;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contenedor principal 
+.Stock {
+    gap: 30px;
+    justify-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}*/
+
